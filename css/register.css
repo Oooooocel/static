@@ -1,0 +1,159 @@
+    .w {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    
+    header {
+        height: 84px;
+        border-bottom: 2px solid #c81523;
+    }
+    
+    .logo {
+        padding-top: 18px;
+    }
+    
+    .registerarea {
+        margin-top: 20px;
+        height: 522px;
+        border: 1px solid #ccc;
+    }
+    
+    .registerarea h3 {
+        height: 42px;
+        line-height: 42px;
+        border-bottom: 1px solid #ccc;
+        background-color: #ececec;
+        padding: 0 10px;
+        font-size: 18px;
+        font-weight: normal;
+    }
+    
+    .login {
+        float: right;
+    }
+    
+    .login a {
+        color: #c81523;
+    }
+    
+    .reg_form {
+        width: 600px;
+        /* background-color: pink; */
+        margin: 50px auto;
+    }
+    
+    .reg_form ul li label {
+        display: inline-block;
+        width: 88px;
+        text-align: right;
+    }
+    
+    .reg_form ul li .inp {
+        border: 1px solid #CCC;
+        height: 37px;
+        width: 242px;
+        margin-right: 7px;
+    }
+    /* 
+.reg_form i {
+    color: #c81523;
+} */
+    
+    .error {
+        color: #c81523;
+    }
+    
+    .error_icon,
+    .success_icon {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: url(../upload/error.jpg) no-repeat;
+        vertical-align: middle;
+        /* 将元素盒子的垂直中点和父盒子 */
+        margin-top: -2px;
+        margin-right: 3px;
+    }
+    
+    .success {
+        color: green;
+    }
+    
+    .success_icon {
+        background: url(../upload/success.png) no-repeat;
+    }
+    
+    .reg_form ul li {
+        margin-bottom: 20px;
+    }
+    
+    .safe {
+        padding-left: 170px;
+    }
+    
+    .safe em {
+        padding: 0 12px;
+        color: #fff;
+    }
+    /* .safe .ruo,
+.safe .zhong,
+.safe .qiang {
+    color: #fff;
+} */
+    
+    .safe .ruo {
+        background-color: rgb(222, 17, 17);
+    }
+    
+    .safe .zhong {
+        background-color: rgb(247, 145, 0);
+    }
+    
+    .safe .qiang {
+        background-color: rgb(64, 184, 63);
+    }
+    
+    .agree input {
+        vertical-align: middle;
+        margin: 20px 7px;
+    }
+    
+    .agree {
+        padding-left: 100px;
+    }
+    
+    .agree a {
+        color: rgb(27, 161, 230);
+        margin: 0 6px;
+    }
+    
+    .btn {
+        width: 200px;
+        height: 34px;
+        background-color: #c81523;
+        color: #fff;
+        font-size: 15px;
+        /* margin: 30px 0 0 70px; */
+    }
+    
+    .tj {
+        padding-left: 100px;
+    }
+    /* 底部模块 */
+    
+    .mod_copyright {
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .links {
+        margin-bottom: 15px;
+    }
+    
+    .links a {
+        margin: 0px 7px;
+    }
+    
+    .mod_copyright {
+        line-height: 20px;
+    }
